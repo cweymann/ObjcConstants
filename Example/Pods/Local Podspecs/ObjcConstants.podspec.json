@@ -1,0 +1,22 @@
+{
+  "name": "ObjcConstants",
+  "version": "0.1.0",
+  "summary": "A short description of ObjcConstants.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Claus Weymann/ObjcConstants",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Claus Weymann": "c.weymann@avm.de"
+  },
+  "source": {
+    "git": "https://github.com/Claus Weymann/ObjcConstants.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ObjcConstants/Classes/**/*"
+}

@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B304F1C656B3E14EE1B7D8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0B304F1C656B3E14EE1B7D8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		32F47CD48A1059463AE1501B /* Pods_ObjcConstants_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcConstants_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3B9744C5BA238404B10E4D /* ObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ObjcConstants.podspec; path = ../ObjcConstants.podspec; sourceTree = "<group>"; };
+		5C3B9744C5BA238404B10E4D /* ObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ObjcConstants.podspec; path = ../ObjcConstants.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ObjcConstants_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcConstants_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63BE967304715F1E4394305D /* Pods-ObjcConstants_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcConstants_Example.release.xcconfig"; path = "Target Support Files/Pods-ObjcConstants_Example/Pods-ObjcConstants_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6EA6B49F732D64A9CD6EFA26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6EA6B49F732D64A9CD6EFA26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D42666F897CFF154AB9CB3F /* Pods-ObjcConstants_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcConstants_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ObjcConstants_Tests/Pods-ObjcConstants_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				7D42666F897CFF154AB9CB3F /* Pods-ObjcConstants_Tests.debug.xcconfig */,
 				8BF27562057927628AED1875 /* Pods-ObjcConstants_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Claus Weymann";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 33G8H3PT9U;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = A593D9E6E09E3D1510DE34CA /* Pods-ObjcConstants_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33G8H3PT9U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjcConstants/ObjcConstants-Prefix.pch";
 				INFOPLIST_FILE = "ObjcConstants/ObjcConstants-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 63BE967304715F1E4394305D /* Pods-ObjcConstants_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33G8H3PT9U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjcConstants/ObjcConstants-Prefix.pch";
 				INFOPLIST_FILE = "ObjcConstants/ObjcConstants-Info.plist";

@@ -1,0 +1,6 @@
+framework module ObjcConstants {
+  umbrella header "ObjcConstants-umbrella.h"
+
+  export *
+  module * { export * }
+}
