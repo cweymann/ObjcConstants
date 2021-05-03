@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0B304F1C656B3E14EE1B7D8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		32F47CD48A1059463AE1501B /* Pods_ObjcConstants_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcConstants_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3B9744C5BA238404B10E4D /* ObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ObjcConstants.podspec; path = ../ObjcConstants.podspec; sourceTree = "<group>"; };
+		5C3B9744C5BA238404B10E4D /* ObjcConstants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ObjcConstants.podspec; path = ../ObjcConstants.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ObjcConstants_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcConstants_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
