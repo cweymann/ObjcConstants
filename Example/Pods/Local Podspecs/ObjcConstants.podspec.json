@@ -1,9 +1,9 @@
 {
   "name": "ObjcConstants",
-  "version": "0.1.0",
-  "summary": "A short description of ObjcConstants.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Claus Weymann/ObjcConstants",
+  "version": "0.2.0",
+  "summary": "Demo to show problem of exposing constants to swift",
+  "description": "In our main projects we stumble upon strange errors with reading a `static const string` defined in a Obj-C header when trying to access it from a swift project with `use_modular_headers!`. This is part of an attempt to create a minimal example.",
+  "homepage": "https://github.com/cweymann/ObjcConstants",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Claus Weymann": "c.weymann@avm.de"
   },
   "source": {
-    "git": "https://github.com/Claus Weymann/ObjcConstants.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cweymann/ObjcConstants.git",
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.3"
   },
   "source_files": "ObjcConstants/Classes/**/*"
 }

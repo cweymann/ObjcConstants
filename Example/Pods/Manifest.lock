@@ -1,5 +1,5 @@
 PODS:
-  - ObjcConstants (0.1.0)
+  - ObjcConstants (0.2.0)
 
 DEPENDENCIES:
   - ObjcConstants (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ObjcConstants: 275f368712c446349c2cbb5a590850a799aba20a
+  ObjcConstants: 66b4e89665840793eb2a20055e3d33a99be1d7da
 
 PODFILE CHECKSUM: cdf187e5dab7420eb0a03540114f8f020a762899
 

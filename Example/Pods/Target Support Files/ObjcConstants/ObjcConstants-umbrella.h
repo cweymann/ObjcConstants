@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AVMHTTPError.h"
 #import "ErrorConstant.h"
 #import "ExternConstant.h"
 

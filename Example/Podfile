@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.3'
 
 target 'ObjcConstants_Example' do
   pod 'ObjcConstants', :path => '../'
 
   target 'ObjcConstants_Tests' do
     inherit! :search_paths
-
-    
   end
 end
